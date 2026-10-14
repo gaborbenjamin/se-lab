@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  //Osztályszintű izé létrehozása hogy hatékonyabb randomgenerálás legyen
   private Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
